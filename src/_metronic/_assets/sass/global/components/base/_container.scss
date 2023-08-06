@@ -1,0 +1,129 @@
+//
+// Container
+//
+
+// Base
+.kt-container {
+  transition: margin-left .5s, width .5s;
+  &,
+  &.kt-container--fluid {
+    width: 100%;
+    margin: 0;
+    margin-top: 60px!important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    &.openM{
+      margin-left: 72px!important;
+      width: calc(100% - 72px);
+    }
+  }
+
+  &.kt-container--fit {
+    padding: 0 !important;
+  }
+
+  &.kt-container--fit-left {
+    padding-left: 0 !important;
+  }
+
+  &.kt-container--fit-right {
+    padding-right: 0 !important;
+  }
+}
+@include kt-mobile() {
+  .kt-container {
+    &,
+    &.kt-container--fluid {
+      padding-bottom: 70px!important;
+    }
+  }
+}
+
+
+@media (min-width: 960px){
+  .kt-container {
+    margin: 0 auto;
+    max-width: 900px;
+    &.kt-container--fluid {
+      width: 100%;
+      margin: 0;
+      max-width: unset;
+    }
+  }
+}
+@media (min-width: 1264px){
+  .kt-container {
+    margin: 0 auto;
+    max-width: 1185px;
+    &.kt-container--fluid {
+      width: 100%;
+      margin: 0;
+      max-width: unset;
+    }
+  }
+}
+@media (min-width: 1904px){
+  .kt-container {
+    margin: 0 auto;
+    max-width: 1785px;
+    &.kt-container--fluid {
+      width: 100%;
+      margin: 0;
+      max-width: unset;
+    }
+  }
+}
+
+.container-fluid {
+  padding-right: 12px!important;
+  padding-left: 12px!important;
+  &.container-fluid8 {
+    padding-right: 8px!important;
+    padding-left: 8px!important;
+  }
+  &.nol{
+    padding-right: 0!important;
+    padding-left: 0!important;
+  }
+  &.container24{
+    margin-left: -24px !important;
+    margin-right: -24px !important;
+  }
+  &.container24p{
+    padding-right: 24px !important;
+    padding-left: 24px !important;
+  }
+}
+
+
+/*
+.row {
+  margin-right: -12px!important;
+  margin-left: -12px!important;
+  &.nol{
+    margin-right: 0!important;
+    margin-left: 0!important;
+  }
+  &.row8 {
+    margin-right: -8px !important;
+    margin-left: -8px !important;
+  }
+  &.row24{
+    margin-left: -24px !important;
+    margin-right: -24px !important;
+  }
+}
+*/
+
+/*@media (min-width: #{$kt-page-container-width + (2 * kt-get($kt-page-padding, desktop)) - 1px}) {
+  .kt-container {
+    width: $kt-page-container-width;
+    margin: 0 auto;
+
+    &.kt-container--fluid {
+      width: 100%;
+      margin: 0;
+    }
+  }
+}
+*/

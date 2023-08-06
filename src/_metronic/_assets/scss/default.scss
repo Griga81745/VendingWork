@@ -1,0 +1,456 @@
+.kt-container,
+.kt-container.kt-container--fluid {
+  margin-top: 64px !important;
+}
+
+.makeStyles-paper-33 {
+  margin-top: 19px;
+}
+
+.sidebarIconDefault {
+  font-size: 2.5rem;
+  margin-right: 1.1rem;
+}
+
+.boardCard.check {
+  background-color: #fff !important;
+}
+
+.main-block {
+  margin-top: 17px;
+}
+
+.MuiPaper-root.MuiPopover-paper.MuiPaper-elevation1.MuiPaper-rounded {
+  border-radius: 8px !important;
+  box-shadow: 0px 6px 20px rgba(153, 155, 168, 0.1);
+}
+
+.header {
+  &-menu {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+  }
+
+  &-name {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    margin-left: 20px;
+    margin-top: 3px;
+    font-family: Gilroy;
+    color: #01579b;
+    font-weight: 600;
+    font-size: 19px;
+  }
+
+  &-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 500;
+    color: #5e6366;
+    font-weight: 600;
+    font-size: 19px;
+    font-family: Gilroy;
+    margin: 0 auto;
+    padding-top: 3px;
+  }
+}
+
+.topbar {
+  display: flex !important;
+  align-items: center !important;
+
+  &-search {
+    position: relative;
+    width: 246px;
+    height: 36px;
+    margin-right: 45px;
+
+    input {
+      width: 100%;
+      height: 100%;
+      border-radius: 4px;
+      border: 1px solid #e0e0e0;
+      padding-left: 40px;
+      outline: transparent;
+      font-family: Gilroy;
+      font-weight: 400;
+      color: #90a4ae;
+      font-size: 14px;
+
+      &::placeholder {
+        font-family: Gilroy;
+        font-weight: 400;
+        color: #90a4ae;
+        font-size: 14px;
+      }
+    }
+
+    &-icon {
+      position: absolute;
+      left: 15px;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  }
+
+  .notification {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    cursor: pointer;
+    border: none;
+    background: transparent;
+  }
+}
+
+.boardInfo {
+  .MuiTypography-root .fS14 .c263238 {
+    color: #263238 !important;
+    letter-spacing: 0.15px !important;
+    font-weight: 500 !important;
+    font-size: 14px !important;
+  }
+
+  .MuiTypography-root .fS12 .c546E7A {
+    color: #546e7a !important;
+    font-size: 12px !important;
+  }
+}
+
+@media (max-width: 460px) {
+  .empty-photo-box {
+    position: relative;
+  }
+
+  .show-details {
+    &.pl-3 {
+      padding-left: 0 !important;
+    }
+  }
+
+  .boardCard {
+    flex-direction: column !important;
+
+    //.makeStyles-emptyPhoto-165 {
+    //   width: 100%;
+    //}
+    .makeStyles-checkBoard-159 {
+      width: 100%;
+    }
+  }
+
+  .MuiCollapse-wrapperInner {
+    p {
+      text-align: left !important;
+    }
+  }
+
+  .loading-window-btns {
+    flex-direction: column !important;
+    justify-content: center !important;
+
+    button {
+      margin: 0 auto !important;
+
+      &:first-child {
+        margin-bottom: 10px !important;
+      }
+    }
+  }
+
+  .search-device-block {
+    flex-direction: column !important;
+
+    .cityInput .MuiInputBase-root {
+
+      //border-bottom: 1px solid #c6cacc !important;
+      input {
+        &::placeholder {
+          font-size: 15px;
+          color: #919699;
+          letter-spacing: 0.44px;
+        }
+      }
+    }
+
+    button {
+      margin-top: 15px;
+      width: 100% !important;
+      height: 40px !important;
+    }
+  }
+}
+
+.sidebarIconActive {
+  color: #22b9ff;
+}
+
+.MuiPickersBasePicker-container .MuiPickersDay-daySelected {
+  background-color: #0277bd !important;
+}
+
+.MuiPickersBasePicker-container .MuiIconButton-root {
+  width: 33px !important;
+  height: 33px !important;
+}
+
+.MuiPickersBasePicker-container .MuiPickersCalendarHeader-dayLabel {
+  width: 37px !important;
+}
+
+.MuiPickersCalendarHeader-switchHeader {
+  height: 48px !important;
+  background: #fffcfa !important;
+}
+
+.MuiPickersBasePicker-pickerView {
+  .MuiIconButton-root {
+    border-radius: 6px !important;
+
+    p {
+      font-size: 13px !important;
+      font-weight: 500 !important;
+    }
+  }
+}
+
+.MuiPickersBasePicker-container .MuiPickersCalendarHeader-transitionContainer p {
+  text-transform: capitalize;
+  font-weight: 600 !important;
+  font-size: 16px !important;
+  color: #37474f !important;
+}
+
+.MuiPickersBasePicker-container .MuiPickersCalendarHeader-dayLabel {
+  font-weight: 500 !important;
+  font-size: 13px !important;
+  text-transform: capitalize;
+}
+
+.MuiPaper-rounded {
+  border-radius: 8px !important;
+  box-shadow: 0px 6px 20px rgba(153, 155, 168, 0.1) !important;
+}
+
+.MuiPickersCalendarHeader-switchHeader {
+  padding: 0 18px !important;
+}
+
+.MuiPaper-root .MuiPopover-paper .MuiPaper-elevation1 .MuiPaper-rounded {
+  border-radius: 8px !important;
+}
+
+.MuiPopover-paper {
+  box-shadow: 0px 6px 20px rgba(153, 155, 168, 0.1) !important;
+}
+
+.MuiPickersBasePicker-container {
+  border-radius: 8px !important;
+}
+
+.MuiPickersBasePicker-container .MuiPickersCalendar-transitionContainer {
+  min-height: 169px !important;
+}
+
+.MuiPickersBasePicker-container .MuiPickersBasePicker-pickerView {
+  min-width: 286px !important;
+  min-height: 275px !important;
+  max-height: 275px !important;
+}
+
+.MuiPickersBasePicker-pickerView {
+  justify-content: start !important;
+}
+
+.MuiTab-wrapper {
+  text-transform: capitalize;
+  letter-spacing: 0.4px;
+}
+
+.MuiBox-root .MuiBox-root-73 {
+  .MuiInputAdornment-positionStart {
+    margin-right: 0 !important;
+    padding: 16px 5px 15px 0px !important;
+  }
+}
+
+.fS20 .MuiTypography-body1 {
+  font-weight: 500 !important;
+  font-size: 20px !important;
+  color: #5e6366 !important;
+}
+
+.fS14 .MuiTypography-root {
+  letter-spacing: 0.4px !important;
+  font-weight: 400 !important;
+}
+
+
+.MuiTypography-root .MuiTypography-body1 .MuiTypography-alignCenter {
+  font-weight: 600 !important;
+}
+
+.MuiPickersBasePicker-container .MuiPickersCalendarHeader-dayLabel {
+  color: #0277bd !important;
+  font-weight: 500 !important;
+}
+
+.create-button {
+  color: white;
+}
+
+.my_pagination {
+  display: inline-block;
+}
+
+.my_pagination a {
+  color: black !important;
+  float: left !important;
+  padding: 4px 8px !important;
+  text-decoration: none !important;
+  transition: background-color 0.3s !important;
+  border: 1px solid #ced4da !important;
+  background-color: #ced4da !important;
+  margin: 0 4px !important;
+  font-size: 10px;
+}
+
+.my_pagination a.active {
+  background-color: #17a2b8 !important;
+  color: white !important;
+  border: 1px solid #17a2b8 !important;
+}
+
+.my_pagination a:hover:not(.active) {
+  background-color: #ced4da !important;
+}
+
+#select-box {
+  margin: auto;
+  margin-right: 10px;
+}
+
+.faux-select {
+  list-style-type: none;
+  padding: 0.4em 0;
+  background: #f0f3ff;
+  color: #93a2dd;
+  text-align: left;
+  cursor: pointer;
+  width: 70px;
+  display: inline-block;
+  position: relative;
+  border-radius: 5px;
+
+  li {
+    padding: 0;
+    text-indent: 1em;
+    position: relative;
+
+    .options {
+      display: block;
+      list-style-type: none;
+      padding: 0;
+      margin: 0.4em 0 0 0;
+      background: transparent;
+      position: absolute;
+      width: 100%;
+      max-height: 0px;
+      overflow: hidden;
+      border: 3px solid transparent;
+      top: -15em;
+      transition: all ease 0.25s;
+
+      li {
+        padding: 0.4em 0;
+
+        &:hover {
+          background: rgba(255, 255, 255, 0.2);
+        }
+
+        &:last-of-type {
+          border-bottom: 0;
+        }
+      }
+    }
+
+    .options.open {
+      background: white;
+      max-height: 1000%;
+      box-shadow: 1px 1px 12px 6px rgba(56, 56, 56, 0.16);
+    }
+  }
+
+  &:before {
+    content: '';
+    width: 0;
+    height: 0;
+    border-left: 0.5em solid transparent;
+    border-right: 0.5em solid transparent;
+    border-top: 0.8em solid #93a2dd;
+    position: absolute;
+    top: 0.7em;
+    right: 0.5em;
+    transition: all ease 0.25s;
+  }
+}
+
+.faux-select.open {
+  &:before {
+    border-left: 0.5em solid transparent;
+    border-right: 0.5em solid transparent;
+    border-bottom: 0.8em solid #93a2dd;
+    border-top: 0;
+  }
+}
+.rootCardContent{
+  padding: 0;
+}
+.cityMob {
+  font-size: 10;
+  text-transform: uppercase !important;
+}
+
+.loader {
+  position: 'absolute';
+  width: '100%';
+  top: "-3px";
+}
+
+.checkboxChecked {
+  color: #0075FF !important;
+}
+
+.rootEmpty {
+  text-align: 'center';
+  margin-top: '160px';
+}
+
+.spanText {
+  margin-top: -12px;
+}
+
+.goodsShelfs {
+  display: flex;
+  justify-content: center !important;
+
+  .goods {
+    position: relative;
+
+    .sticker {
+      position: absolute;
+      z-index: 100;
+      width: 35%;
+      left: 20px;
+      top: 20px;
+    }
+
+    img {
+      width: 100%;
+    }
+  }
+}

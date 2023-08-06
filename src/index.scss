@@ -1,0 +1,131 @@
+// 3rd-party Plugins
+//@import "~highlight.js/styles/googlecode.css";
+//@import "~perfect-scrollbar/css/perfect-scrollbar.css";
+
+// Theme Styles
+@import "./_metronic/_assets/sass/style.react.scss";
+
+.kt-badge.kt-badge--brand {
+  background-color: #22b9ff;
+}
+.btn-brand {
+  background-color: #22b9ff;
+  border-color: #22b9ff;
+  font-size: 1rem;
+}
+.single-select {
+  > div {
+    > span + div {
+      border-color: #22b9ff;
+      border-radius: 4px 4px 0 0;
+      border-bottom: none;
+      &:hover {
+        border-color: #22b9ff;
+      }
+    }
+  }
+}
+.select__control {
+  &.select__control--is-focused {
+    box-shadow: 0 0 0 1px #22b9ff;
+    border-color: #22b9ff;
+    &.select__control--menu-is-open {
+      border-top: none;
+      border-bottom: none;
+      border-color: #22b9ff;
+      border-radius: 4px 4px 0 0;
+      box-shadow: 0 -1px 0 1px #22b9ff;
+    }
+  }
+}
+.btn {
+  text-align: left;
+  &.btn-default:hover {
+    background-color: #22b9ff;
+    border-color: #22b9ff;
+  }
+  &.btn-opened {
+    background-color: #f0f3ff;
+  }
+}
+
+.pagination {
+  > li {
+    padding: 10px 6.5px;
+
+    > a {
+      display: block;
+      padding-top: 4px;
+      width: 30px;
+      height: 30px;
+      text-align: center;
+      transition: 0.5s;
+      border-radius: 3px;
+      font-size: 14px;
+      transition: 0.5s;
+
+      &:hover {
+        background: #22b9ff;
+        color: #ffffff;
+        transition: 0.5s;
+      }
+    }
+  }
+  > li.active {
+    > a {
+      background: #22b9ff;
+      color: #ffffff;
+      transition: 0.5s;
+    }
+  }
+  > li.disabled {
+    > a {
+      color: #93a2dd;
+      background: #f0f3ff;
+      opacity: 0.5;
+      transition: 0.5s;
+    }
+  }
+  > li.disabled:last-child,
+  > li.disabled:first-child {
+    > a {
+      &:hover {
+        background: #f0f3ff;
+        color: #93a2dd;
+        transition: 0.5s;
+      }
+    }
+  }
+  > li.disabled:nth-last-child(2),
+  > li.disabled:nth-child(2) {
+    > a {
+      &:hover {
+        background: #f0f3ff;
+        color: #93a2dd;
+        transition: 0.5s;
+      }
+    }
+  }
+  > li:last-child,
+  > li:first-child {
+    > a {
+      background: #f0f3ff;
+      &:hover {
+        background: #22b9ff;
+        color: #ffffff;
+        transition: 0.5s;
+      }
+    }
+  }
+  > li:nth-last-child(2),
+  > li:nth-child(2) {
+    > a {
+      background: #f0f3ff;
+      &:hover {
+        background: #22b9ff;
+        color: #ffffff;
+        transition: 0.5s;
+      }
+    }
+  }
+}

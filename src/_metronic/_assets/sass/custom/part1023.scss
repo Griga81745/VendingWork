@@ -1,0 +1,23 @@
+@media screen and (min-width: 1024px) {
+
+  .fS-lg-20{
+    font-size: 20px !important;
+    .MuiTypography-body1{
+      font-size: 20px;
+      line-height: 27px;
+    }
+  }
+
+}
+
+
+
+@media screen and (max-width: 959px) {
+
+  .createBT{
+    position: absolute;
+    top: 29px;
+    right: 10px;
+  }
+
+}

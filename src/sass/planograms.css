@@ -1,0 +1,97 @@
+.containerGoods {
+  margin: 24px;
+}
+.containerGoods .containerGoods_style {
+  align-items: center;
+  border-radius: 4px;
+  background: #FFF;
+  box-shadow: 0px 4px 15px 0px rgba(8, 35, 48, 0.07);
+  padding: 24px;
+  margin: 0 auto;
+}
+.containerGoods .containerGoods_style > div:nth-child(1) {
+  display: flex;
+  width: 100%;
+  height: auto;
+  border-bottom: 2px solid #E1E1E1;
+}
+.containerGoods .containerGoods_style > div:nth-child(1) > div {
+  display: flex;
+  gap: 32px;
+}
+.containerGoods .containerGoods_style > div:nth-child(1) .containerGoods_header-title1 {
+  border-bottom: 2px solid var(--blue, #448AFF);
+  cursor: pointer;
+  text-align: center;
+  font-family: Gilroy;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  color: var(--blue, #448AFF);
+}
+.containerGoods .containerGoods_style > div:nth-child(1) .containerGoods_header-title1 > p {
+  margin: 0px;
+  padding: 0px 16px 16px 16px;
+}
+.containerGoods .containerGoods_style > div:nth-child(1) .containerGoods_header-title2 {
+  color: #9E9E9E;
+  cursor: pointer;
+  text-align: center;
+  font-family: Gilroy;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+}
+.containerGoods .containerGoods_style > div:nth-child(1) .containerGoods_header-title2 > p {
+  margin: 0px;
+  padding: 0px 16px 16px 16px;
+}
+.containerGoods .containerGoods_style > div:nth-child(2) {
+  display: flex;
+}
+.containerGoods .containerGoods_style .buttonCreate button {
+  width: 200px;
+  height: 48px;
+  border-radius: 4px;
+  background: #00C853;
+  box-shadow: 0px 4px 15px 0px rgba(68, 138, 255, 0.2);
+}
+.containerGoods .containerGoods_style .buttonCreate button > span {
+  gap: 12px;
+}
+.containerGoods .containerGoods_style .buttonCreate button > span > p {
+  margin-top: 14px;
+}
+
+.disabledButtons {
+  opacity: 0.5;
+}
+
+.rotateIMG {
+  transform: rotate(180deg);
+}
+
+.buttonArrow {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.tableNamePlano {
+  color: rgb(33, 33, 33);
+  font-size: 16px;
+  font-style: normal;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.5px;
+}
+
+.marginZA {
+  margin: 0 auto;
+}
+
+/*# sourceMappingURL=planograms.css.map */

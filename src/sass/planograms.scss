@@ -1,0 +1,102 @@
+.containerGoods{
+  margin: 24px;
+  .containerGoods_style{
+    align-items: center;
+    border-radius: 4px;
+    background: #FFF;
+    box-shadow: 0px 4px 15px 0px rgba(8, 35, 48, 0.07);
+    padding: 24px;
+    margin: 0 auto;
+
+    >div:nth-child(1){
+      display: flex;
+      width: 100%;
+      height: auto;
+      border-bottom: 2px solid #E1E1E1;
+      >div{
+        display: flex;
+        gap: 32px;
+      }
+      .containerGoods_header-title1{
+        border-bottom: 2px solid var(--blue, #448AFF);
+        cursor: pointer;
+        text-align: center;
+        font-family: Gilroy;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 28px;
+        color: var(--blue, #448AFF);
+        >p{
+          margin: 0px;
+          padding: 0px 16px 16px 16px;
+        }
+      }
+      .containerGoods_header-title2{
+        color: #9E9E9E;
+        cursor: pointer;
+        text-align: center;
+        font-family: Gilroy;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 28px;
+        >p{
+          margin: 0px;
+          padding: 0px 16px 16px 16px;
+        }
+      }
+    }
+    >div:nth-child(2){
+      display: flex;
+    }
+    .buttonCreate{
+      button {
+        width: 200px;
+        height: 48px;
+        border-radius: 4px;
+        background: #00C853;
+        box-shadow: 0px 4px 15px 0px rgba(68, 138, 255, 0.20);
+
+        &:hover {
+
+        }
+        >span{
+          gap: 12px;
+        }
+        >span>p{
+          margin-top: 14px;
+        }
+      }
+    }
+  }
+}
+
+.disabledButtons{
+  opacity: 0.5;
+}
+
+.rotateIMG{
+  transform: rotate(180deg);
+}
+
+.buttonArrow{
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.tableNamePlano{
+  color: rgba(33, 33, 33, 1);
+  font-size: 16px;
+  font-style: normal;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.5px;
+}
+
+.marginZA{
+  margin: 0 auto;
+}

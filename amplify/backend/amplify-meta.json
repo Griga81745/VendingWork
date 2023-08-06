@@ -1,0 +1,51 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-oktareact-dev-192851-authRole",
+      "UnauthRoleArn": "arn:aws:iam::690067865614:role/amplify-oktareact-dev-192851-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::690067865614:role/amplify-oktareact-dev-192851-authRole",
+      "Region": "eu-west-1",
+      "DeploymentBucketName": "amplify-oktareact-dev-192851-deployment",
+      "UnauthRoleName": "amplify-oktareact-dev-192851-unauthRole",
+      "StackName": "amplify-oktareact-dev-192851",
+      "StackId": "arn:aws:cloudformation:eu-west-1:690067865614:stack/amplify-oktareact-dev-192851/ba353c00-6ee1-11eb-983d-023ad6aaa6f3",
+      "AmplifyAppId": "d3mjtn1zdsp90d"
+    }
+  },
+  "auth": {
+    "oktareact6434ed1e": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-oktareact-dev-192851-deployment/amplify-cfn-templates/auth/oktareact6434ed1e-cloudformation-template.yml",
+        "logicalId": "authoktareact6434ed1e"
+      },
+      "lastPushTimeStamp": "2021-02-14T17:54:01.432Z",
+      "output": {
+        "UserPoolId": "eu-west-1_PCqNjr3M3",
+        "AppClientIDWeb": "2470l74svg2rm9pt22peo5088d",
+        "AppClientID": "7nsgqjp40b5t7kjj4u8nmtjarr",
+        "IdentityPoolId": "eu-west-1:92280606-42c3-4850-bf91-64ef4cab0f8a",
+        "IdentityPoolName": "oktareact6434ed1e_identitypool_6434ed1e__dev",
+        "UserPoolName": "oktareact6434ed1e_userpool_6434ed1e"
+      },
+      "lastPushDirHash": "E8rvd5wAFHF16Ci3J8zKRPdcuK4="
+    }
+  },
+  "hosting": {
+    "amplifyhosting": {
+      "service": "amplifyhosting",
+      "providerPlugin": "awscloudformation",
+      "type": "manual",
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-oktareact-dev-192851-deployment/amplify-cfn-templates/hosting/amplifyhosting-template.json",
+        "logicalId": "hostingamplifyhosting"
+      },
+      "lastPushTimeStamp": "2021-02-14T17:54:01.440Z",
+      "output": {},
+      "lastPushDirHash": "/+VZ33seFFqAr6wbtptwbINUfSA="
+    }
+  }
+}
